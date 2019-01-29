@@ -1,4 +1,98 @@
 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+
+<style>
+*{ padding:0; margin:0; font-family:"微软雅黑",Verdana, Geneva, sans-serif;}
+.header{ background-color:#8996f7; height:60px;}
+.header div{ width:960px; line-height:60px; font-size:40px; padding:0px; margin:auto;}
+.header img{padding:0px 10px;}
+.header a{ float:left;color:#FFF; font-size:40px; text-decoration:none;}
+.header a:hover{
+	text-decoration: underline;
+}
+.header span{ float:right; color:#FFF;}
+.header strong{ color:#CC0000;}
+
+
+.info{width:920px;  margin:auto; padding:20px; border-bottom:1px solid #D7E0F0;}
+.info h1{ font-size:100px; color:#CC0000; font-weight:normal; }
+.info p{ color:#000;}
+.info p.fd40{ font-size:40px;}
+.info p.fd20{ font-size:20px;}
+.info ol{ padding:20px; margin:20px;}
+.info ol li{
+	list-style-type: decimal;
+	line-height:30px;
+	font-size:14px;
+	color:#333;
+}
+.c_red{ color:#FF0000;}
+
+.foot{ width:920px;  margin:auto; padding:20px; text-align:left; font-size:12px; color:#666;}
+</style>
+
+
+<title>404错误 疯言疯语-niexianbin.cn</title>
+</head>
+
+
+
+
+
+<body>
+
+<div class="header">
+<div>
+
+<a href="http://xianbin87.wicp.net">疯言疯语 Lemonshu.cn</a>
+<span>404 <strong>Error</strong></span>
+</div>
+</div>
+
+
+<div class="info">
+
+<h1>Sorry</h1>
+<p class="fd40">糟糕，您访问的页面出现了错误！</p>
+<p class="fd20">The requested URL was not found on this server. </p>
+
+<ol>
+<li>请检查您输入的网址是否正确。 </li>
+<li>确认无误有可能我们的页面正在升级或维护。 </li>
+<li>您可以尝试访问以下链接。 </li>
+</ol>
+<span class="c_red">此页面 5秒后自动跳转到疯言疯语网站首页</span>
+
+<form name=loading> 
+<p> <font color="#0066ff" size="2">正在进入主站，请稍等</font><font color="#0066ff" size="2" face="Arial">...</font>
+<input type=text name=chart size=46 style="font-family:Arial; font-weight:bolder; color:#0066ff; background-color:#fef4d9; padding:0px; border-style:none;"> 
+<input type=text name=percent size=47 style="color:#0066ff; text-align:center; border-width:medium; border-style:none;"> 
+<script>　 
+var bar=0　 
+var line="||"　 
+var amount="||"　 
+count()　 
+function count(){　 
+bar=bar+2　 
+amount =amount + line　 
+document.loading.chart.value=amount　 
+document.loading.percent.value=bar+"%"　 
+if (bar<99)　 
+{setTimeout("count()",100);}　 
+else　 
+{window.location = "http://xianbin87.wicp.net";}　 
+}</script> 
+　</p> 
+</form> 
+
+
+</div>
+<p class="foot">Copyright &copy; 2012 - 2018 疯言疯语〈niexianbin.cn〉 版权所有 豫ICP备14006766号-1</p>
 
 
 
@@ -7,8 +101,5 @@
 
 
 
-
-
-
-
-网站建设中……
+</body>
+</html>
