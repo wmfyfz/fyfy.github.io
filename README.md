@@ -49,7 +49,7 @@
 <div class="header">
 <div>
 
-<a href="http://xianbin87.wicp.net">疯言疯语 Lemonshu.cn</a>
+<a href="http://xianbin87.wicp.net">疯言疯语 niexianbin.cn</a>
 <span>404 <strong>Error</strong></span>
 </div>
 </div>
@@ -58,8 +58,8 @@
 <div class="info">
 
 <h1>Sorry</h1>
-<p class="fd40">糟糕，您访问的页面出现了错误！</p>
-<p class="fd20">The requested URL was not found on this server. </p>
+<p class="fd40">对不起，网站正在建设中……！</p>
+<p class="fd20">Sorry, the website is under construction... </p>
 
 <ol>
 <li>请检查您输入的网址是否正确。 </li>
