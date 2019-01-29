@@ -76,12 +76,12 @@ var line="||"　
 var amount="||"　 
 count()　 
 function count(){　 
-bar=bar+2　 
+bar=bar+1　 
 amount =amount + line　 
 document.loading.chart.value=amount　 
 document.loading.percent.value=bar+"%"　 
 if (bar<99)　 
-{setTimeout("count()",200);}　 
+{setTimeout("count()",100);}　 
 else　 
 {window.location = "http://xianbin87.wicp.net";}　 
 }</script> 
